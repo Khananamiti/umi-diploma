@@ -1,9 +1,54 @@
-<?php
-	session_start();
-	include "connect.php";
-	include "header.php";
-?>
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЮМИ | Магазин Xiaomi в Омске</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Header start (Шапка)-->
+	<header class="header">
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="#s1" class="header__logo-link">
+						<img src="./img/header_logo.png" alt="ЮМИ" class="header__logo-pic">
+					</a>
+				</div>
+				<div class="header__capshion">
+					<nav class="header__nav">					
+						<ul class="header__list">
+							<li class="header__item">
+								<a href="shipping&payment.html" class="header__link">Доставка и оплата</a>
+							</li>					
+							<li class="header__item">
+								<a href="guarantee.html" class="header__link">Гарантия</a>
+							</li>					
+							<li class="header__item">
+								<a href="contacts.html" class="header__link">Контакты</a>
+							</li>					
+							<li class="header__item">
+								<a href="authorization.html" class="header__link">Личный кабинет</a>
+							</li>
+							<div class="contact">
+								<li class="telephone">
+									<a href="tel:+79083120707" class="header__link telephone">+7-908-312-07-07</a>
+								</li>		
+								<ul class="time-work">	
+									<li class="header__item3">
+										<a href="mailto:umiomsk55@gmail.com" class="header__link time-work">umiomsk55@gmail.com</a>
+									</li>
+								</ul>	
+							</div>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header end (Шапка) -->
 	<main class="main">
 		<!-- Intro start (Вступление)-->
 		<section class="intro">
@@ -220,7 +265,38 @@
 			<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.045629561506!2d73.30184821602394!3d54.98983395804156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43ab01a340f00655%3A0xf1f3e057217bf7dd!2z0YPQuy4g0KHRgtC10L_QsNC90YbQsCwgMiwg0J7QvNGB0LosINCe0LzRgdC60LDRjyDQvtCx0LsuLCA2NDQxMTI!5e0!3m2!1sru!2sru!4v1671357783123!5m2!1sru!2sru" width="1920" height="608" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</p>
 
+		<!-- Footer start (Подвал) -->
+		<div id="footer">
+			<div class="wrapper-full section-color">
+				<div class="wrapper">
+					<div class="footer__capshion">
+						<nav class="header__nav">					
+							<ul class="header__list">
+								<li class="footer__item">
+									<a href="#!" class="header__link">Остались вопросы? Мы готовы помочь!</a>
+								</li>					
+								<li class="footer__item">
+									<a href="#!" class="header__link">Служба поддержки</a>
+								</li>					
+								<li class="footer__item">
+									<a href="#!" class="header__link">Политика конфиденциальности</a>
+								</li>				
+							</ul>
+							<ul >
+								<li class="header__item">
+									<a href="#!" class="header__link">©ЮМИ | Магазин умной техники в Омске </a>
+								</li>	
+							</ul>						
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" title="Вернуться к началу" class="topbutton">
+			<img src="./img/arrow-up.png" alt="Up">
+		</a>
+		<!-- Footer end (Подвал) -->
 	</main>
 	<script src="js/bootstrap.bundle.min.js"></script>
-
-<?php include "footer.php" ?>
+</body>
+</html>
